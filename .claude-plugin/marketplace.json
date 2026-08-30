@@ -1,0 +1,13 @@
+{
+  "name": "arch-pr-authoring",
+  "owner": {
+    "name": "The Simulation Company"
+  },
+  "plugins": [
+    {
+      "name": "pr-qa-authoring",
+      "source": "./plugins/pr-qa-authoring",
+      "description": "Helps Claude write PR descriptions with the product context Arch needs."
+    }
+  ]
+}

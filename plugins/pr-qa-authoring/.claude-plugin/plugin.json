@@ -1,0 +1,8 @@
+{
+  "name": "pr-qa-authoring",
+  "description": "Writes PR descriptions with grounded product, navigation, and setup context.",
+  "version": "0.1.0",
+  "author": {
+    "name": "The Simulation Company"
+  }
+}
