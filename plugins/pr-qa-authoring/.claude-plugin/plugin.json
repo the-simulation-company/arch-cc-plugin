@@ -1,8 +1,11 @@
 {
   "name": "pr-qa-authoring",
   "description": "Writes PR descriptions with grounded product, navigation, and setup context.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
-    "name": "The Simulation Company"
-  }
+    "name": "Foothill Labs",
+    "url": "https://foothill.sh"
+  },
+  "homepage": "https://foothill.sh",
+  "repository": "https://github.com/the-simulation-company/arch-cc-plugin"
 }
