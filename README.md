@@ -11,7 +11,7 @@ It activates when Claude prepares, creates, or edits a PR description.
 From inside Claude Code:
 
 ```text
-/plugin marketplace add the-simulation-company/arch-cc-plugin
+/plugin marketplace add https://github.com/the-simulation-company/arch-cc-plugin.git
 /plugin install pr-qa-authoring@arch-pr-authoring
 /reload-plugins
 ```
