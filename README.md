@@ -8,13 +8,14 @@ It activates when Claude prepares, creates, or edits a PR description.
 
 ## Install
 
-From inside Claude Code:
+Install at user scope so the plugin is available across all projects and repositories:
 
-```text
-/plugin marketplace add https://github.com/the-simulation-company/arch-cc-plugin.git
-/plugin install pr-qa-authoring@arch-pr-authoring
-/reload-plugins
+```bash
+claude plugin marketplace add https://github.com/the-simulation-company/arch-cc-plugin.git --scope user
+claude plugin install pr-qa-authoring@arch-pr-authoring --scope user
 ```
+
+Start a new Claude Code session after installation.
 
 ## What it adds
 
