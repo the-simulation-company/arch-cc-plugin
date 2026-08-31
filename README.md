@@ -2,9 +2,9 @@
 
 A Claude Code plugin that helps authors write PR descriptions with enough grounded product context for Arch to turn the description into useful goals later.
 
-Published by [Foothill Labs](https://foothill.sh).
+Built by [Foothill Labs](https://foothill.sh).
 
-It activates when Claude prepares, creates, or edits a PR description. It does not run QA, simulations, MCP tools, or any Arch workflow.
+It activates when Claude prepares, creates, or edits a PR description.
 
 ## Install
 
@@ -26,14 +26,4 @@ The `pr-qa-description` skill asks Claude to ground the PR description in the di
 - required setup or state; and
 - evidenced behavioral variants.
 
-Human-authored and template sections are preserved. Missing facts are marked for the author instead of invented.
-
-## Local development
-
-```bash
-claude --plugin-dir ./plugins/pr-qa-authoring
-```
-
-Ask Claude to create or edit a PR description without naming the skill. Confirm that product context is added, the repository template is preserved, and no external QA action occurs.
-
-Use [`fixtures/pr-description-cases.md`](fixtures/pr-description-cases.md) for the shared information-level behavior checks.
+Human-authored and template sections are preserved. The skill traces relevant repository evidence before asking the author for context that is genuinely unavailable.
