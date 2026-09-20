@@ -17,9 +17,19 @@ claude plugin install pr-qa-authoring@arch-pr-authoring --scope user
 
 Start a new Claude Code session after installation.
 
+## Install in Devin
+
+Organization admins can install the plugin for every repository and session origin:
+
+1. Open **Customize → Plugins → Add plugin → From repository**.
+2. Use `https://github.com/the-simulation-company/arch-cc-plugin/tree/main/plugins/pr-qa-authoring`.
+3. Select the organization scope and install the plugin.
+
+Start a new Devin session after installation.
+
 ## What it adds
 
-The `pr-qa-description` skill asks Claude to ground the PR description in the diff, relevant tests, and repository template, then capture:
+The `pr-qa-description` skill asks the coding agent to ground the PR description in the diff, relevant tests, and repository template, then capture:
 
 - the user-visible change;
 - affected pages and components;
